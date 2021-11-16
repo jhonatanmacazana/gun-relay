@@ -1,7 +1,7 @@
 const express = require("express");
 const Gun = require("gun");
 
-const PORT = process.env.PORT || 8000;
+const PORT = parseInt(process.env.PORT, 10) || 8000;
 const TEMPORAL_DIR = "gundata";
 
 const startServer = () => {
