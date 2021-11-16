@@ -1,0 +1,15 @@
+{
+  "name": "gun-relay",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jhonatanmacazana/gun-relay.git",
+  "author": "jmacazana <jhonatan.macazana@utec.edu.pe>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "gun": "^0.2020.1235"
+  }
+}
