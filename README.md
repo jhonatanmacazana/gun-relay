@@ -6,10 +6,10 @@ Simple files to run a peer-relay of Gun.
 
 ```bash
 # Install dependencies
-yarn install
+pnpm install
 
 # Start server
-yarn start
+pnpm start
 ```
 
 This will start the relay on `http://localhost:8000/gun`
